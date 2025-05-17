@@ -34,13 +34,16 @@ The rank of the matrix is the number of nonzero rows.
 Step 7: Output the rank
  
 ## Program:
+```
 #Program to find the rank of a matrix.
 #Developed by: SAVISH R
 #RegisterNumber:212224230257
+
 import numpy as np
 a=np.array([[3,2,5],[1,1,2],[3,3,6]])
 solution=np.linalg.matrix_rank(a)
 print(solution)
+```
 ## Output:
 ![image](https://github.com/user-attachments/assets/15aedb46-d7bf-4012-883a-9a86aa8e086f)
 
